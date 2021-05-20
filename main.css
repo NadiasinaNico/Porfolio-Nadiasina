@@ -95,12 +95,12 @@ html{
 }
 /* home section styling*/
 .home{
-    display: flex;
-    background: url("image/nadiasina.jpg") no-repeat center;
+    background: url("image/nadiasina.jpg") no-repeat center ;
     height: 100vh;
     color: rgb(219, 215, 215);
     min-height: 600px;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 .home .max-width{
     margin: auto 0 auto 100px;
