@@ -18,7 +18,7 @@ html{
     width: 100%;
     z-index: 999;
     padding: 15px 0;
-    background:crimson;
+    background:rgb(147, 20, 220);
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
@@ -29,7 +29,7 @@ html{
 }
 .navbar.sticky {
     padding: 15px 0;
-    background: rgb(73, 70, 71);
+    background: rgb(147, 20, 220);
 }
 .navbar .logo a{
     color: #fff;
@@ -95,15 +95,22 @@ html{
 }
 /* home section styling*/
 .home{
-    background: url("image/nadiasina.jpg") no-repeat center ;
-    height: 100vh;
+    background: url("image/deuxieme.jpg") no-repeat  ;
     color: rgb(219, 215, 215);
     min-height: 600px;
+    object-fit: cover;
+    height: 100vh;
     font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 100%;
+    
     
 }
 .home .max-width{
     margin: auto 0 auto 100px;
+}
+.teams .max-width{
+    margin: 100px 0 auto 100px;
+
 }
 .home .home-content .text-1{
     font-size: 27px; 
@@ -118,18 +125,18 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(72, 158, 173);
-    font-weight: 500;
+    color: rgb(94, 23, 151);
+    font-weight: 250;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: rgb(94, 23, 151);
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     padding: 12px 36px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
+    border-radius: 4px;
+    border: 2px solid rgb(94, 23, 151);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -214,7 +221,7 @@ html{
     }
     .services .serv-content .card{
         width: calc(50% - 10px);
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
@@ -286,15 +293,13 @@ section .title::after{
     position: absolute;
     bottom: -12px;
     font-size: 20px;
-    color: crimson;
+    color: rgb(94, 23, 151);
     padding: 5px;
     left: 50%;
     background: #fff;
     transform: translateX(-50%);
 }
-.about .title::after{
-    content: "Who I am";
-}
+
 .about .about-content,
 .services .serv-content,
  .skills .skills-content,
@@ -323,21 +328,21 @@ border-radius: 10px;
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: rgb(94, 23, 151);
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(39, 35, 36);
+    background: rgb(94, 23, 151);;
     font-weight: 500;
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     padding: 12px 36px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid rgb(53, 47, 48);
+    border-radius: 3px;
+    border: 1px solid rgb(94, 23, 151);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
@@ -348,8 +353,8 @@ border-radius: 10px;
 
 /* services section styling */
 .services, .teams{
-    color: #fff;
-    background: #111;
+    color: rgb(64, 5, 133);
+    background: rgb(255, 255, 255);
 }
 .services .title::before,
 .teams .title::before{
@@ -357,24 +362,272 @@ border-radius: 10px;
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
-    content: "What I provide";
+    background: rgb(248, 248, 248);
+    
 }
 
 .services .serv-content .card{
-    width: calc(33% - 20px);
-    background: #222;
+    width: calc(35% - 30px);
+    background: rgb(255, 253, 253);
     text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
+    border-radius: 3px;
+    padding: 50px 50px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow:  0 20px 20px rgba(255, 253, 253, 0.2), 0px 0px 50px rgba(112, 28, 161, 0.2);;
 }
+.bar {
+    width: calc(105% - 30px);
+    background: rgb(255, 253, 253);
+    text-align: center;
+    border-radius: 3px;
+    padding: 50px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow:  0 20px 20px rgba(255, 253, 253, 0.2), 0px 0px 50px rgba(112, 28, 161, 0.2);;
+
+}
+/* Carrer1 */
+.carrer {
+position: absolute;
+width: 1303px;
+height: 290px;
+left: 37px;
+top: 2050px;
+background: rgb(255, 253, 253);
+
+}
+.carrer .rond {
+position: absolute;
+width: 70px;
+height: 70px;
+left: 100px;
+top: 50px;
+background: #921FC8;
+border-radius: 50%;
+}
+.carrer .rond .rond-1{
+position: absolute;
+width: 41px;
+height: 21px;
+left: 16px;
+top: 26px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #fffdfd;
+
+}
+.card-carrer {
+    margin: 2px 2px;
+    padding: 30px 40px;
+    
+    background-color: #f8f8f8;
+    box-shadow:  0 20px 10px rgba(255, 253, 253, 0.2), 0px 0px 50px rgba(112, 28, 161, 0.2);;
+
+}
+.card-carrer1 {
+    padding: 30px 40px;
+    background-color: #f8f8f8;
+    box-shadow:  0 10px 10px rgba(255, 253, 253, 0.2), 0px 0px 30px rgba(112, 28, 161, 0.2);;
+
+}
+.card-carrer2 {
+    margin: 2px 2px;
+    padding: 30px 40px;
+    background-color: #f8f8f8;
+    box-shadow:  0 10px 10px rgba(255, 253, 253, 0.2), 0px 0px 30px rgba(112, 28, 161, 0.2);;
+
+}
+.card-carrer3 {
+    margin-left: 1px;
+    padding: 30px 40px;
+    background-color: #f8f8f8;
+    box-shadow:  0 10px 10px rgba(255, 253, 253, 0.2), 0px 0px 30px rgba(112, 28, 161, 0.2);;
+
+}
+.carrer .rond .card-carrer{
+position: absolute;
+width: 338px;
+height: 94px;
+left: -80px;
+top: 113px;
+background: #f8f8f8;
+}
+.carrer .rond .card-carrer .ligne{
+    position: absolute;
+    width: 334px;
+    height: 16px;
+    left: 145px;
+    top: -86px;
+    
+    background: #921FC8;
+}
+.carrer .rond .rond-2-h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ae15c2; 
+    }
+    
+
+/* Carrer2 */
+.carrer .rond1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 460px;
+    top: 50px;
+    background: #921FC8;
+    border-radius: 50%;
+    }
+    .carrer .rond1 .rond-2{
+    position: absolute;
+    width: 41px;
+    height: 21px;
+    left: 17px;
+    top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    }
+    .carrer .rond1 .card-carrer1{
+    position: absolute;
+    width: 338px;
+    height: 94px;
+    left: -80px;
+    top: 113px;
+    background: #f8f8f8;
+    }
+
+    .carrer .rond1 .card-carrer1 .ligne1{
+        position: absolute;
+        width: 334px;
+        height: 16px;
+        left: 138px;
+        top: -86px;
+        background: #921FC8;
+    }
+    .carrer .rond1 .rond-3-h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+       
+        color: #ae15c2; 
+        }
+        
+    /* carrrer 3 */
+    .carrer .rond2 {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 800px;
+        top: 50px;
+        background: #921FC8;
+        border-radius: 50%;
+        }
+        .carrer .rond2 .rond-3{
+        position: absolute;
+        width: 41px;
+        height: 21px;
+        left: 17px;
+        top: 27px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #ffffff;
+        
+        }
+    
+        .carrer .rond2 .card-carrer2{
+        position: absolute;
+        width: 338px;
+        height: 94px;
+        left: -80px;
+        top: 113px;
+        background: #f8f8f8;
+        }
+        .carrer .rond2 .card-carrer2 .ligne2{
+            position: absolute;
+            width: 300px;
+            height: 16px;
+            left: 145px;
+            top: -86px;
+            background: #921FC8;
+        }
+        .carrer .rond2 .rond-4-h3{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+           
+            color: #ae15c2; 
+            }
+            
+    /* Carrer 4 */
+    .carrer .rond3 {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 1100px;
+        top: 50px;
+        background: #921FC8;
+        border-radius: 50%;
+        }
+        .carrer .rond3 .rond-4{
+        position: absolute;
+        width: 41px;
+        height: 21px;
+        left: 17px;
+        top: 27px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #f8f8f8;
+        
+        }
+        .carrer .rond3 .card-carrer3{
+        position: absolute;
+        width: 338px;
+        height: 94px;
+        left: -80px;
+        top: 113px;
+        background: #f8f8f8;
+        }
+        .carrer .rond3 .rond-5-h4{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+           
+            color: #ae15c2; 
+            }
+            
+       
+
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: rgb(85, 69, 72);
+    background: rgb(238, 234, 234);
 }
 
 .services .serv-content .card:hover .box{
@@ -382,16 +635,14 @@ border-radius: 10px;
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: rgb(37, 156, 165);
+    color: rgb(94, 23, 151);
 }
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.skills .title::after{
-    content : "What I Know";
-}
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -399,7 +650,7 @@ border-radius: 10px;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: rgb(39, 78, 78);
+    color: rgb(94, 23, 151);
 }
 .skills .skills-content .right .bars{
     margin-bottom: 17px;
@@ -421,14 +672,14 @@ border-radius: 10px;
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: rgb(94, 23, 151);
     color: #fff;
     font-size: 16px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
@@ -441,7 +692,7 @@ border-radius: 10px;
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgb(161, 51, 73);
+    background-color: rgb(94, 23, 151);
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -466,11 +717,10 @@ border-radius: 10px;
 }
 
 /* teams section styling */
-.teams .title::after{
-    content: "who with me";
-}
+
 .teams .carousel .card{
-    background: #222;
+    width: calc(93% - 7px);
+    background: rgb(255, 251, 251);
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -492,15 +742,14 @@ border-radius: 10px;
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    border: 1px solid rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: rgb(85, 69, 72);
+    background: rgb(255, 255, 255);
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
@@ -527,9 +776,7 @@ border-radius: 10px;
 }
 
 /* contact section styling */
-.contact .title::after{
-    content: "get in touch";
-}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -554,7 +801,7 @@ border-radius: 10px;
 }
 .contact .contact-content .row i{
     margin-left: 24px;
-    color: crimson;
+    color: rgb(94, 23, 151);
 }
 .contact .contact-content .info .head{
     font-weight: 600;
@@ -602,11 +849,11 @@ border-radius: 10px;
     width: 170px;
 }
 .contact .right form .button button{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
     color: #fff;
-    background-color: crimson;
-    font-size: 20px;
+    background-color: rgb(94, 23, 151);
+    font-size: 15px;
     font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
