@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 html{
     scroll-behavior: smooth;
@@ -14,11 +15,11 @@ html{
 }
 /* navbar styling*/
 .navbar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 999;
     padding: 15px 0;
-    background:crimson;
+    /* background:crimson; */
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
@@ -29,12 +30,13 @@ html{
 }
 .navbar.sticky {
     padding: 15px 0;
-    background: rgb(73, 70, 71);
+    /* background: rgb(73, 70, 71); */
 }
 .navbar .logo a{
-    color: #fff;
+    color: #6937ff;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 300;
+    text-decoration: underline;
 }
 .navbar .logo  a span{
     color: black;
@@ -49,11 +51,12 @@ html{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
-    font-size: 18px;
+    color: #a4a4a4;
+    font-size: 16px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    
 
 }
 .navbar .menu li a:hover{
@@ -96,7 +99,7 @@ html{
 /* home section styling*/
 .home{
     display: flex;
-    background: url("image/nadiasina.jpg") no-repeat center;
+    /* background: url("image/nadiasina.jpg") no-repeat center; */
     height: 100vh;
     color: rgb(219, 215, 215);
     min-height: 600px;
@@ -107,33 +110,43 @@ html{
 }
 .home .home-content .text-1{
     font-size: 27px; 
+    color: #000000;
 }
+.home .home-content .text-1 span {
+    color: #6937ff;
+}
+
 .home .home-content .text-2{
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     margin-left: -3px;
+    padding-top: 30px;
+    color: #373d43;
 }
 .home .home-content .text-3{
-    font-size: 55px;
+    font-size: 35px;
     margin: 5px 0;
+    color: #000000;
+
 }
 .home .home-content .text-3 span{
-    color: rgb(72, 158, 173);
-    font-weight: 500;
+    color: rgb(10, 10, 10);
+    font-weight: 200;
+    padding: 15px;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #6937ff;
     color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
+    font-size: 15px;
+    padding: 10px 25px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #6937ff;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #6937ff;
     background: none;
 }
 
@@ -189,7 +202,7 @@ html{
         font-size: 25px;
     }
     .home .home-content .text-2{
-        font-size: 70px;
+        font-size: 20px;
     }
     .home .home-content .text-3{
         font-size: 35px;
@@ -269,7 +282,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 section .title::before{
     content: "";
@@ -308,8 +321,8 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-height: 350px;
-width: 350px;
+height: 300px;
+width: 300px;
 object-fit: cover;
 border-radius: 10px;
     
@@ -330,18 +343,18 @@ border-radius: 10px;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(39, 35, 36);
-    font-weight: 500;
+    background: #6937ff;
+    font-weight: 200;
     color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
+    font-size: 16px;
+    padding: 12px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(53, 47, 48);
+    border: 2px solid #6937ff;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #6937ff;
     background: none;
 }
 
